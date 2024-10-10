@@ -1,7 +1,7 @@
-package Entity;
+package entity;
 
-import Main.GamePanel;
-import Main.KeyHandler;
+import main.GamePanel;
+import main.KeyHandler;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -31,6 +31,7 @@ public class Player extends Entity {
             down = ImageIO.read(getClass().getClassLoader().getResourceAsStream("C1PlayerSprite/front.png"));
             downLeft = ImageIO.read(getClass().getClassLoader().getResourceAsStream("C1PlayerSprite/frontLeft.png"));
             downRight = ImageIO.read(getClass().getClassLoader().getResourceAsStream("C1PlayerSprite/frontRight.png"));
+            downIdle = ImageIO.read(getClass().getClassLoader().getResourceAsStream("C1PlayerSprite/frontIdle.png"));
             left = ImageIO.read(getClass().getClassLoader().getResourceAsStream("C1PlayerSprite/left.png"));
             leftLeft = ImageIO.read(getClass().getClassLoader().getResourceAsStream("C1PlayerSprite/leftLeft.png"));
             leftRight=ImageIO.read(getClass().getClassLoader().getResourceAsStream("C1PlayerSprite/leftRight.png"));
